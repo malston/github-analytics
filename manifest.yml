@@ -4,7 +4,7 @@ applications:
   services:
     - rabbitmq-github
     - mysql-github
-    - github-eureka
+    - eureka-github
   env:
     SPRING_PROFILES_ACTIVE: cloud
     DEBUG: "true"
